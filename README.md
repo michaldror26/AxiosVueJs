@@ -1,5 +1,5 @@
 #  second-project-VueJs---practicing
-i practice git
+i practice git - master
 
 ## Project setup
 ```
