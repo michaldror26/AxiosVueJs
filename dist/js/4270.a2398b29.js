@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["4270"],{4270:function(e,t,n){"use strict";n.r(t);var o=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[n("h1",[e._v("The User Page")]),n("hr"),n("button",{staticClass:"btn btn-primary",on:{click:e.navigateToHome}},[e._v("Go to Home")]),n("hr"),n("router-view")],1)},r=[],a={methods:{navigateToHome:function(){this.$router.push({name:"home"})}}},i=a,s=n("2877"),u=Object(s["a"])(i,o,r,!1,null,null,null);t["default"]=u.exports}}]);
+//# sourceMappingURL=4270.a2398b29.js.map

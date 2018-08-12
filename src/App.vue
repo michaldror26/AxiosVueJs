@@ -10,7 +10,7 @@
                 <br>
                 <input type="text" v-model="value">
                 <p>value: {{value}}</p>
-
+<p>{{url}} </p>
             </div>
         </div>
     </div>
@@ -21,6 +21,11 @@
     import Header from './components/Header.vue';
 
     export default {
+        data(){
+            return{
+                url:process.env.VUE_APP_URL
+            }
+        },
         computed: {
             value: {
                 get() {
